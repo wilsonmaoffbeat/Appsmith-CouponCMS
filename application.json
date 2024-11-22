@@ -1,0 +1,52 @@
+{
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {},
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F5D1D1",
+  "evaluationVersion": 2,
+  "icon": "book",
+  "pages": [
+    {
+      "id": "CouponList",
+      "isDefault": true
+    },
+    {
+      "id": "Login Test",
+      "isDefault": false
+    },
+    {
+      "id": "ViewCouponDetail",
+      "isDefault": false
+    },
+    {
+      "id": "EditCouponDetail",
+      "isDefault": false
+    },
+    {
+      "id": "CreateCoupon",
+      "isDefault": false
+    }
+  ],
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {},
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}
