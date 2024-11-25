@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6735b3c54e2d48287e4a5d74_a658ddee-a41f-4d83-a9e5-f6f3691147af",
-  "id": "CreateCoupon_js_on_discount_type_change.onDiscountTypeChange",
+  "gitSyncId": "6735b3c54e2d48287e4a5d74_b1a55054-3127-49a9-88f6-0737f8bbad43",
+  "id": "CreateCoupon_js_on_discount_type_change.iniCouponType",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,9 +22,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "fullyQualifiedName": "js_on_discount_type_change.onDiscountTypeChange",
-    "name": "onDiscountTypeChange",
+    "executeOnLoad": true,
+    "fullyQualifiedName": "js_on_discount_type_change.iniCouponType",
+    "name": "iniCouponType",
     "pageId": "CreateCoupon",
     "userSetOnLoad": true
   }

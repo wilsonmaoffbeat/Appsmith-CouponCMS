@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 17,
   "boxShadow": "none",
-  "defaultText": "{{api_get_coupon.data[\"discount\"][\"value\"] >= 0 ? api_get_coupon.data[\"discount\"][\"currency\"]+\" \"+api_get_coupon.data[\"discount\"][\"value\"] : currentRow[\"discount\"]}}",
+  "defaultText": "{{api_get_coupon.data[\"discount\"][\"value\"] >= 0 ? api_get_coupon.data[\"discount\"][\"currency\"]+\" \"+api_get_coupon.data[\"discount\"][\"value\"] : api_get_coupon.data[\"discount\"]}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

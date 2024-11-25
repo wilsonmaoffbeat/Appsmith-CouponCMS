@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 16,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -42,8 +45,8 @@
   "needsErrorInfo": false,
   "optionLabel": "name",
   "optionValue": "code",
-  "originalBottomRow": 8,
-  "originalTopRow": 4,
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
   "parentColumnSpace": 17.74749755859375,
   "parentId": "km2riabkkl",
   "parentRowSpace": 10,
@@ -52,8 +55,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"PRODUCT\",\n    \"code\": \"PRODUCT\"\n  },\n  {\n    \"name\": \"DELIVERY\",\n    \"code\": \"DELIVERY\"\n  }\n]",
-  "topRow": 4,
+  "sourceData": "{{appsmith.store.couponTypes}}",
+  "topRow": 12,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "kklnpuoy3t",
