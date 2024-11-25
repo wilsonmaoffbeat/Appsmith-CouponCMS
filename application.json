@@ -19,11 +19,11 @@
   "pages": [
     {
       "id": "CouponList",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Login Test",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "ViewCouponDetail",
@@ -35,6 +35,10 @@
     },
     {
       "id": "CreateCoupon",
+      "isDefault": false
+    },
+    {
+      "id": "Login",
       "isDefault": false
     }
   ],

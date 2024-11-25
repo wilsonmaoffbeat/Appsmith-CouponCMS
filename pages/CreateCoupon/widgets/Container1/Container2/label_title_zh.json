@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
+  "bottomRow": 27,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "originalBottomRow": 25,
-  "originalTopRow": 21,
+  "originalBottomRow": 27,
+  "originalTopRow": 23,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "y4lknztx5l",
@@ -43,7 +43,7 @@
   "text": "Title ZH-HK",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 21,
+  "topRow": 23,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

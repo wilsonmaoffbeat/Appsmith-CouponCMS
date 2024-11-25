@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6735b3c54e2d48287e4a5d74_627ec616-51db-4236-bc19-a0ba7cc68e7d",
+  "id": "CreateCoupon_js_submit",
+  "unpublishedCollection": {
+    "name": "js_submit",
+    "pageId": "CreateCoupon",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

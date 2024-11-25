@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6735b3c54e2d48287e4a5d74_736fbc37-01a8-4f7f-8ac2-e65418b1ac24",
+  "id": "CreateCoupon_js_on_discount_type_change",
+  "unpublishedCollection": {
+    "name": "js_on_discount_type_change",
+    "pageId": "CreateCoupon",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"detail": {
+    "description": {
+      "en": {{input_desc_en.text}},
+      "zh-HK": {{input_desc_zh.text}}
+    },
+    "endDate": {{datepicker_end.selectedDate}},
+    "kind": {
+      "discount": {
+        "currency": {{select_currency.selectedOptionValue}},
+        "value": {{Number(input_discount_amount.text)}}
+      },
+      "discountType": {{select_discount_type.selectedOptionValue}},
+      "minimumProductAmount": {
+        "currency": {{select_currency.selectedOptionValue}},
+        "value": {{Number(input_min_product_value.text)}}
+      },
+      "type": {{select_coupon_type.selectedOptionValue}}
+    },
+    "redemptionLimit": {{input_redemption_limit.text}},
+    "redemptionLimitPerCode": {{input_limit_per_code.text}},
+    "redemptionLimitPerUser": {{input_limit_per_user.text}},
+    "registrationTypes": {{select_registration_type.selectedOptionValues}},
+    "remarks": {
+      "en": {{input_remarks_en.text}},
+      "zh-HK": {{input_remarks_zh.text}}
+    },
+    "startDate": {{datepicker_start.selectedDate}},
+    "title": {
+      "en": {{input_title_en.text}},
+      "zh-HK": {{input_title_zh.text}}
+    }
+  },
+	"generation": 
+	{{
+		radio_generate_method.selectedOptionValue === 'Y' ? 
+			{
+				"couponCodes": input_code.text.split(/\r?\n/).filter(it => !!it),
+				"type": "SELF_DEFINED"
+			} : 
+			{
+				"numberOfCode": input_auto_gen_count.text,
+				"type": "SYSTEM_GENERATED"
+			}
+	}}
+}

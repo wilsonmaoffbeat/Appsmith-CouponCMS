@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 65,
   "boxShadow": "none",
-  "defaultText": "{{api_get_coupon.data.startDate}}",
+  "defaultText": "{{moment(api_get_coupon.data.startDate).format(\"YYYY-MM-DD HH:mm\")}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

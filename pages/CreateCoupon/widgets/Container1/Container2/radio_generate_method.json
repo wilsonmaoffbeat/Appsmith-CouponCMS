@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "defaultOptionValue": "Y",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "5kg3s4sehe",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 29,
+  "needsErrorInfo": false,
+  "onSelectionChange": "{{js_on_generate_method_change.onGenerateMethodChange();}}",
+  "options": [
+    {
+      "label": "Self-defined",
+      "value": "Y"
+    },
+    {
+      "label": "Sys-generated",
+      "value": "N"
+    }
+  ],
+  "originalBottomRow": 33,
+  "originalTopRow": 27,
+  "parentColumnSpace": 17.74749755859375,
+  "parentId": "y4lknztx5l",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 25,
+  "topRow": 1,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "nxfgw2mhz1",
+  "widgetName": "radio_generate_method"
+}

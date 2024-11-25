@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 15,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -15,7 +15,11 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "iconAlign": "left",
   "inputType": "MULTI_LINE_TEXT",
   "isDisabled": false,
@@ -38,17 +42,20 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "originalBottomRow": 13,
+  "onTextChanged": "{{js_on_code_input.onCodeInput();}}",
+  "originalBottomRow": 15,
   "originalTopRow": 5,
   "parentColumnSpace": 17.74749755859375,
   "parentId": "y4lknztx5l",
   "parentRowSpace": 10,
+  "placeholderText": "Enter self-defined codes or enter \"Auto generate\".",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 34,
+  "rightColumn": 22,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
+  "tooltip": "Enter self-defined codes or enter \"Auto generate\".",
   "topRow": 5,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
