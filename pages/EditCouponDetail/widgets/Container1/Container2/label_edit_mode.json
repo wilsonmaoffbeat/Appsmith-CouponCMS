@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 32,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -25,28 +25,28 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 33,
+  "mobileBottomRow": 37,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
-  "mobileTopRow": 29,
+  "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 34,
-  "originalTopRow": 30,
+  "originalBottomRow": 319,
+  "originalTopRow": 315,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "wkvu5oxbv2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 26,
+  "rightColumn": 21,
   "shouldTruncate": false,
-  "text": "Title ZH-HK",
+  "text": "Edit Mode",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 28,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "0vqzo6psue",
-  "widgetName": "label_title_zh"
+  "widgetId": "vypwgi4k2s",
+  "widgetName": "label_edit_mode"
 }

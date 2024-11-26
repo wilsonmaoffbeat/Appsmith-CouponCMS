@@ -1,0 +1,58 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "N",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "68dqefxgyw",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 324,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 318,
+  "needsErrorInfo": false,
+  "options": [
+    {
+      "label": "Edit Full Record",
+      "value": "Y"
+    },
+    {
+      "label": "Edit Redemption Details",
+      "value": "N"
+    }
+  ],
+  "originalBottomRow": 10,
+  "originalTopRow": 4,
+  "parentColumnSpace": 20.21875,
+  "parentId": "wkvu5oxbv2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 34,
+  "topRow": 4,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "mdr96hjpp5",
+  "widgetName": "radio_full_edit"
+}
