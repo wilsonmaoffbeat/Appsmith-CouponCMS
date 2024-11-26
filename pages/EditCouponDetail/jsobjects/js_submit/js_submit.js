@@ -28,7 +28,7 @@ export default {
 			 //input_remarks_en !== "" && input_remarks_zh !== "" &&
 			 select_coupon_type.selectedOptionValue !== "" && select_discount_type.selectedOptionValue !== "" && 
 			 select_registration_type.selectedOptionValues.length > 1 &
-			 input_redemption_limit.text > 0 && input_limit_per_code.text > 0 && input_limit_per_user.text > 0 &&
+			 input_limit_per_code.text > 0 && input_limit_per_user.text > 0 &&
 			 datepicker_start.selectedDate !== "" && datepicker_end.selectedDate !== "")
 			{
 				//validation for Discount Type and its value

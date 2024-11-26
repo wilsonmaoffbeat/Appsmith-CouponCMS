@@ -40,9 +40,9 @@
 	
       "type": {{select_coupon_type.selectedOptionValue}}
     },
-    "redemptionLimit": {{input_redemption_limit.text}},
-    "redemptionLimitPerCode": {{input_limit_per_code.text}},
-    "redemptionLimitPerUser": {{input_limit_per_user.text}},
+    "redemptionLimit": {{Number(input_redemption_limit.text)}},
+    "redemptionLimitPerCode": {{Number(input_limit_per_code.text)}},
+    "redemptionLimitPerUser": {{Number(input_limit_per_user.text)}},
     "registrationTypes": {{select_registration_type.selectedOptionValues}},
     "remarks": {
       "en": {{input_remarks_en.text}},
