@@ -1,56 +1,66 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 64,
+  "bottomRow": 88,
   "boxShadow": "none",
-  "defaultText": "",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD HH:mm",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{api_get_coupon.data.startDate}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
+  "firstDayOfWeek": 0,
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "5kab6awbwl",
+  "key": "fqc4w9pu67",
   "label": "",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 1,
+  "maxDate": "2121-12-31T18:29:00.000Z",
   "maxDynamicHeight": 9000,
+  "minDate": "2024-11-22T14:49:10.1010+08:00",
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 44,
+  "mobileBottomRow": 92,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 21,
-  "mobileTopRow": 37,
+  "mobileTopRow": 85,
   "needsErrorInfo": false,
-  "originalBottomRow": 64,
-  "originalTopRow": 60,
+  "originalBottomRow": 300,
+  "originalTopRow": 295,
   "parentColumnSpace": 17.74749755859375,
   "parentId": "6qq9ihmvg2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 34,
-  "showStepArrows": false,
-  "topRow": 60,
-  "type": "INPUT_WIDGET_V2",
+  "shortcuts": false,
+  "timePrecision": "minute",
+  "topRow": 84,
+  "type": "DATE_PICKER_WIDGET2",
   "version": 2,
-  "widgetId": "b1vauerdrd",
-  "widgetName": "Input4"
+  "widgetId": "viv7wafv2c",
+  "widgetName": "datepicker_start"
 }

@@ -1,7 +1,6 @@
 export default {
 	async onDiscountTypeChange()
 	{
-		await api_get_coupon.run();
 		this.iniComponents();
 		if(select_discount_type.selectedOptionValue === 'FIXED_AMOUNT')
 		{

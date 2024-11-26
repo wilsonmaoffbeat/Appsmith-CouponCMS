@@ -23,7 +23,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "onClick": "{{api_get_coupon.run()}}",
+  "onClick": "{{js_on_ini_page.onIniPage();}}",
   "originalBottomRow": 31,
   "originalTopRow": 27,
   "parentColumnSpace": 18.642578125,

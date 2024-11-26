@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 84,
+  "bottomRow": 92,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 84,
-  "originalTopRow": 80,
+  "originalBottomRow": 92,
+  "originalTopRow": 88,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "6qq9ihmvg2",
@@ -40,13 +40,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 21,
   "shouldTruncate": false,
-  "text": "Start Date",
+  "text": "End Date",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 80,
+  "topRow": 88,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "qiagzrtj88",
-  "widgetName": "Text3Copy2"
+  "widgetId": "lxa9qzsybg",
+  "widgetName": "label_end_date"
 }

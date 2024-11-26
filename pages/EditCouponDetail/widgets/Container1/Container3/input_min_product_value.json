@@ -3,15 +3,18 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 62,
+  "bottomRow": 56,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{api_get_coupon.data.minimumProductAmount ? api_get_coupon.data.minimumProductAmount.currency+\" \"+api_get_coupon.data?.minimumProductAmount.value : \"\"}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -30,28 +33,27 @@
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 1,
-  "maxChars": "120",
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 40,
+  "mobileBottomRow": 12,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 21,
-  "mobileTopRow": 33,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "originalBottomRow": 61,
-  "originalTopRow": 57,
+  "originalBottomRow": 56,
+  "originalTopRow": 52,
   "parentColumnSpace": 17.74749755859375,
-  "parentId": "wkvu5oxbv2",
+  "parentId": "6qq9ihmvg2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "showStepArrows": false,
-  "topRow": 57,
+  "topRow": 52,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "6ix9rshtk6",
-  "widgetName": "input_remarks_zh"
+  "widgetId": "imogpxz53j",
+  "widgetName": "input_min_product_value"
 }

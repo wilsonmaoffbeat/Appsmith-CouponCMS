@@ -26,7 +26,7 @@
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "mimpey4bpt",
   "labelAlignment": "left",

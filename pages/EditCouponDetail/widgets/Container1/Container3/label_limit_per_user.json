@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 52,
+  "bottomRow": 76,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -25,28 +25,28 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 33,
+  "mobileBottomRow": 37,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
-  "mobileTopRow": 29,
+  "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 52,
-  "originalTopRow": 48,
+  "originalBottomRow": 76,
+  "originalTopRow": 72,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "6qq9ihmvg2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 34,
+  "rightColumn": 21,
   "shouldTruncate": false,
-  "text": "Min Product Value",
+  "text": "Redemption Limit Per User",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 48,
+  "topRow": 72,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "c1y2drx7v8",
-  "widgetName": "Text2CopyCopyCopyCopy2"
+  "widgetId": "q7hp5va763",
+  "widgetName": "label_limit_per_user"
 }

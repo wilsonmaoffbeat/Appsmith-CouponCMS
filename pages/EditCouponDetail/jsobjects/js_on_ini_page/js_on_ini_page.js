@@ -1,7 +1,14 @@
 export default {
-	async onDiscountTypeChange()
+	async onIniPage()
 	{
-		await api_get_coupon.run();
+		try
+		{
+			await api_get_coupon.run();
+		}
+		catch (error)
+		{
+			showAlert('Error! '+api_get_coupon.data.message,'error');
+		}
 		this.iniComponents();
 		if(api_get_coupon.data.discountType === 'FIXED_AMOUNT')
 		{
@@ -45,5 +52,9 @@ export default {
 			storeValue("couponTypes", types.filter(item => !(item.name === "PRODUCT" && item.code === "PRODUCT")));
 			console.log('store edited');
 		}
+		//count existing codes
+		const inputText = input_code.text;
+		const items = inputText.split('\n');
+		code_count.setValue(items.filter(item => item.trim() !== '').length);
 	}
 }

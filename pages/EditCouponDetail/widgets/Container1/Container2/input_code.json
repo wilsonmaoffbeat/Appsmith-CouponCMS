@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 80,
+  "bottomRow": 13,
   "boxShadow": "none",
-  "defaultText": "{{api_get_coupon.data.redemptionLimitPerUser}}",
+  "defaultText": "{{api_get_coupon.data.couponCodes.join('\\n')}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -17,13 +17,17 @@
       "key": "defaultText"
     }
   ],
-  "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "iconAlign": "left",
-  "inputType": "TEXT",
+  "inputType": "MULTI_LINE_TEXT",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
+  "isRequired": true,
   "isVisible": true,
   "key": "5kab6awbwl",
   "label": "",
@@ -36,24 +40,26 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 44,
+  "mobileBottomRow": 12,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 21,
-  "mobileTopRow": 37,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "originalBottomRow": 80,
-  "originalTopRow": 76,
+  "onTextChanged": "{{js_on_code_input.onCodeInput();}}",
+  "originalBottomRow": 13,
+  "originalTopRow": 5,
   "parentColumnSpace": 17.74749755859375,
-  "parentId": "6qq9ihmvg2",
+  "parentId": "wkvu5oxbv2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 34,
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 76,
+  "topRow": 5,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "32c62oul9h",
-  "widgetName": "Input4Copy1"
+  "widgetId": "pgaaxfy7uv",
+  "widgetName": "input_code"
 }

@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 181,
+  "boxShadow": "none",
+  "buttonColor": "#f4f4f5",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "sw7k26tuze",
+  "leftColumn": 14,
+  "minWidth": 120,
+  "mobileBottomRow": 157,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 153,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('CouponList', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 180,
+  "originalTopRow": 176,
+  "parentColumnSpace": 18.642578125,
+  "parentId": "hljf65ajrh",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 30,
+  "text": "Back to Coupon List",
+  "topRow": 177,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6tgeeczosv",
+  "widgetName": "Button2"
+}

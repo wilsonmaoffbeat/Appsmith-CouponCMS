@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 97,
+  "bottomRow": 80,
   "boxShadow": "none",
-  "defaultText": "{{moment(api_get_coupon.data.endDate).format(\"YYYY-MM-DD HH:mm\")}}",
+  "defaultText": "{{api_get_coupon.data.redemptionLimitPerUser}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -41,8 +41,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 37,
   "needsErrorInfo": false,
-  "originalBottomRow": 97,
-  "originalTopRow": 92,
+  "originalBottomRow": 80,
+  "originalTopRow": 76,
   "parentColumnSpace": 17.74749755859375,
   "parentId": "6qq9ihmvg2",
   "parentRowSpace": 10,
@@ -51,9 +51,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "showStepArrows": false,
-  "topRow": 92,
+  "topRow": 76,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "wwvvp7q61u",
-  "widgetName": "Input4Copy3"
+  "widgetId": "32c62oul9h",
+  "widgetName": "input_limit_per_user"
 }

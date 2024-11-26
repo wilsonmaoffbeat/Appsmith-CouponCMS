@@ -3,18 +3,15 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 72,
+  "bottomRow": 64,
   "boxShadow": "none",
-  "defaultText": "{{api_get_coupon.data.redemptionLimitPerCode}}",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -41,8 +38,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 37,
   "needsErrorInfo": false,
-  "originalBottomRow": 72,
-  "originalTopRow": 68,
+  "originalBottomRow": 64,
+  "originalTopRow": 60,
   "parentColumnSpace": 17.74749755859375,
   "parentId": "6qq9ihmvg2",
   "parentRowSpace": 10,
@@ -51,9 +48,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "showStepArrows": false,
-  "topRow": 68,
+  "topRow": 60,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "9ali1f3xm9",
-  "widgetName": "Input4Copy"
+  "widgetId": "b1vauerdrd",
+  "widgetName": "input_redemption_limit"
 }

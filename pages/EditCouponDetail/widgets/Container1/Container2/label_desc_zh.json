@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 33,
+  "bottomRow": 41,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,23 +30,23 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "originalBottomRow": 33,
-  "originalTopRow": 29,
+  "originalBottomRow": 41,
+  "originalTopRow": 37,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "wkvu5oxbv2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 30,
+  "rightColumn": 31,
   "shouldTruncate": false,
-  "text": "Description EN",
+  "text": "Description ZH-HK",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 29,
+  "topRow": 37,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "fqlxowzclw",
-  "widgetName": "Text2Copy1"
+  "widgetId": "coamzzqbww",
+  "widgetName": "label_desc_zh"
 }

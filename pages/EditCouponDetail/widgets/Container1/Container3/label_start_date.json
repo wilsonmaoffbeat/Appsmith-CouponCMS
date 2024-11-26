@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 76,
+  "bottomRow": 84,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 76,
-  "originalTopRow": 72,
+  "originalBottomRow": 84,
+  "originalTopRow": 80,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "6qq9ihmvg2",
@@ -40,13 +40,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 21,
   "shouldTruncate": false,
-  "text": "Redemption Limit Per User",
+  "text": "Start Date",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 72,
+  "topRow": 80,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "q7hp5va763",
-  "widgetName": "Text3Copy1"
+  "widgetId": "qiagzrtj88",
+  "widgetName": "label_start_date"
 }
