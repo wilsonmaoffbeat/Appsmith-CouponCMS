@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 33,
   "shouldTruncate": false,
-  "text": "Discount Currency and Max Amount",
+  "text": "Discount Amount",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 9,

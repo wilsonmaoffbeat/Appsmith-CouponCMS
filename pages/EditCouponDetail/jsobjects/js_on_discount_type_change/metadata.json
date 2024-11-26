@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6735b3c54e2d48287e4a5d74_966ef2fa-fb8a-4e3d-bb8f-449d4c02aeda",
+  "id": "EditCouponDetail_js_on_discount_type_change",
+  "unpublishedCollection": {
+    "name": "js_on_discount_type_change",
+    "pageId": "EditCouponDetail",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

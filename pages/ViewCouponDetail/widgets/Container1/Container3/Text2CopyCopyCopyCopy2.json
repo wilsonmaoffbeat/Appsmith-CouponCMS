@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 29,
+  "bottomRow": 37,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
-  "originalBottomRow": 29,
-  "originalTopRow": 25,
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "azkqyy9q9e",
@@ -43,7 +43,7 @@
   "text": "Min Product Value",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 25,
+  "topRow": 33,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -29,7 +29,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 1,
+  "leftColumn": 10,
   "maxDynamicHeight": 9000,
   "maxNum": "100",
   "minDynamicHeight": 4,

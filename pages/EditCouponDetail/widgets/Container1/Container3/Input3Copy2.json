@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 56,
+  "boxShadow": "none",
+  "defaultText": "{{api_get_coupon.data.minimumProductAmount ? api_get_coupon.data.minimumProductAmount.currency+\" \"+api_get_coupon.data?.minimumProductAmount.value : \"\"}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "5kab6awbwl",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 56,
+  "originalTopRow": 52,
+  "parentColumnSpace": 17.74749755859375,
+  "parentId": "6qq9ihmvg2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 34,
+  "showStepArrows": false,
+  "topRow": 52,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "imogpxz53j",
+  "widgetName": "Input3Copy2"
+}

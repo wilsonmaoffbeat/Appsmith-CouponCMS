@@ -1,0 +1,6 @@
+{
+	"title": {
+		"en": {{input_title_en.text}},
+		"zh-HK": {{input_title_zh.text}}
+	}
+}

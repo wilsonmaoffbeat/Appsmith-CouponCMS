@@ -31,7 +31,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('EditCouponDetail', {\n  \"id\": api_get_reel_admin.data.id\n}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('EditCouponDetail', {\n  \"id\": appsmith.URL.queryParams.id\n}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 20.21875,
   "parentId": "0",
   "parentRowSpace": 10,

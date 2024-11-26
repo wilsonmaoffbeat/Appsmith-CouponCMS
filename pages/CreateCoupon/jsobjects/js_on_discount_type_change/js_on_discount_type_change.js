@@ -9,6 +9,7 @@ export default {
 			select_currency.setDisabled(false);
 			input_discount_amount.setDisabled(false);
 			input_discount_percent.setDisabled(true);
+			select_max_currency.setDisabled(true);
 			input_max_discount_amount.setDisabled(true);
 		}
 		else if(select_discount_type.selectedOptionValue === 'PERCENTAGE')
@@ -17,6 +18,7 @@ export default {
 			select_currency.setDisabled(true);
 			input_discount_amount.setDisabled(true);
 			input_discount_percent.setDisabled(false);
+			select_max_currency.setDisabled(false);
 			input_max_discount_amount.setDisabled(false);
 		}
 		else //null
@@ -24,6 +26,7 @@ export default {
 			select_currency.setDisabled(true);
 			input_discount_amount.setDisabled(true);
 			input_discount_percent.setDisabled(true);
+			select_max_currency.setDisabled(true);
 			input_max_discount_amount.setDisabled(true);
 		}
 	},

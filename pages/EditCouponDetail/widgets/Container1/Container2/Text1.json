@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 59,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -25,28 +25,28 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 33,
+  "mobileBottomRow": 5,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
-  "mobileTopRow": 29,
+  "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "originalBottomRow": 59,
-  "originalTopRow": 55,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
-  "parentId": "y4lknztx5l",
+  "parentId": "wkvu5oxbv2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 30,
   "shouldTruncate": false,
-  "text": "Remarks ZH-HK",
+  "text": "Codes",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 55,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "82dxcxys98",
-  "widgetName": "label_desc_zhCopy1"
+  "widgetId": "h6uxy54rjj",
+  "widgetName": "Text1"
 }

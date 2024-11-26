@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 33,
+  "bottomRow": 41,
   "boxShadow": "none",
-  "defaultText": "{{api_get_coupon.data.minimumProductAmount.currency+\" \"+api_get_coupon.data.minimumProductAmount.value}}",
+  "defaultText": "{{api_get_coupon.data.minimumProductAmount ? api_get_coupon.data.minimumProductAmount.currency+\" \"+api_get_coupon.data.minimumProductAmount.value : \"\"}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -41,8 +41,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "originalBottomRow": 33,
-  "originalTopRow": 29,
+  "originalBottomRow": 41,
+  "originalTopRow": 37,
   "parentColumnSpace": 17.74749755859375,
   "parentId": "azkqyy9q9e",
   "parentRowSpace": 10,
@@ -51,7 +51,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 34,
   "showStepArrows": false,
-  "topRow": 29,
+  "topRow": 37,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "jnac9a3n80",

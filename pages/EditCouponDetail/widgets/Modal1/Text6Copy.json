@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9c7ghpkgup",
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "originalBottomRow": 12,
+  "originalTopRow": 7,
+  "overflow": "NONE",
+  "parentColumnSpace": 12.53125,
+  "parentId": "5n6xckjm0m",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 29,
+  "shouldTruncate": false,
+  "text": "Customer ID: {{table_redemption.selectedRow.userProfileId}}",
+  "textAlign": "RIGHT",
+  "textColor": "#231F20",
+  "topRow": 12,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "gv4q5acr0q",
+  "widgetName": "Text6Copy"
+}

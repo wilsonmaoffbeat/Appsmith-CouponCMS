@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( api_get_coupon.data.discountType))(select_discount_type.options, select_discount_type.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "o3m5rkawjh",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{js_on_discount_type_change.asynconDiscountTypeChange();}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
+  "parentColumnSpace": 17.74749755859375,
+  "parentId": "6qq9ihmvg2",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 34,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"FIXED_AMOUNT\",\n    \"code\": \"FIXED_AMOUNT\"\n  },\n  {\n    \"name\": \"PERCENTAGE\",\n    \"code\": \"PERCENTAGE\"\n  }\n]",
+  "topRow": 4,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "c63s8ez8lu",
+  "widgetName": "select_discount_type"
+}

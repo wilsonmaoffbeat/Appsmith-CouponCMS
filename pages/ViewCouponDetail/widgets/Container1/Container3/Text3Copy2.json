@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 61,
+  "bottomRow": 69,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 61,
-  "originalTopRow": 57,
+  "originalBottomRow": 69,
+  "originalTopRow": 65,
   "overflow": "NONE",
   "parentColumnSpace": 17.74749755859375,
   "parentId": "azkqyy9q9e",
@@ -43,7 +43,7 @@
   "text": "Start Date",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 57,
+  "topRow": 65,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
