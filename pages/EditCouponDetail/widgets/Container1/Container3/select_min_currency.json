@@ -1,11 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 56,
   "boxShadow": "none",
-  "defaultText": "{{api_get_coupon.data.minimumProductAmount ? api_get_coupon.data?.minimumProductAmount.value : \"\"}}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( api_get_coupon.data.discount.currency ? api_get_coupon.data.discount.currency : \"\"))(select_min_currency.options, select_min_currency.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,46 +13,52 @@
       "key": "borderRadius"
     },
     {
-      "key": "defaultText"
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "5kab6awbwl",
-  "label": "",
+  "key": "o3m5rkawjh",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 10,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 12,
+  "mobileBottomRow": 31,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 21,
-  "mobileTopRow": 5,
+  "mobileTopRow": 24,
   "needsErrorInfo": false,
-  "originalBottomRow": 56,
-  "originalTopRow": 52,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 334,
+  "originalTopRow": 329,
   "parentColumnSpace": 17.74749755859375,
   "parentId": "6qq9ihmvg2",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 34,
-  "showStepArrows": false,
+  "rightColumn": 10,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"HKD\",\n    \"code\": \"HKD\"\n  }\n]",
   "topRow": 52,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "imogpxz53j",
-  "widgetName": "input_min_product_value"
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "o0n6l5fgr7",
+  "widgetName": "select_min_currency"
 }

@@ -11,7 +11,7 @@
     		select_discount_type.selectedOptionValue === 'FIXED_AMOUNT' ? 
       	{
         	"currency": select_currency.selectedOptionValue,
-        	"value": Number(input_min_product_value.text)
+        	"value": Number(input_discount_amount.text)
       	} : input_discount_percent.text+"%"
   		}},
       "discountType": {{select_discount_type.selectedOptionValue}},

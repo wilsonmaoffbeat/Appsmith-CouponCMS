@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 40,
   "boxShadow": "none",
-  "defaultText": "{{api_get_coupon.data[\"maximumDiscountAmount\"][\"value\"] >= 0 ? api_get_coupon.data[\"maximumDiscountAmount\"][\"value\"] : \"\"}}",
+  "defaultText": "{{api_get_coupon.data.maximumDiscountAmount !== undefined ? api_get_coupon.data[\"maximumDiscountAmount\"][\"value\"] : \"\"}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

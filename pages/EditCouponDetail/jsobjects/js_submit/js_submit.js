@@ -12,7 +12,7 @@ export default {
 			{
 				await api_patch_coupon.run({data:this.createBody(radio_full_edit.selectedOptionValue)});
 				showAlert('Coupon edited!', 'success');
-				navigateTo('CouponList');
+				//navigateTo('CouponList');
 			}
 			catch (error)
 			{
@@ -27,7 +27,7 @@ export default {
 			 input_title_en !== "" && input_title_zh !== "" && input_desc_en !== "" && label_desc_zh !== "" &&
 			 //input_remarks_en !== "" && input_remarks_zh !== "" &&
 			 select_coupon_type.selectedOptionValue !== "" && select_discount_type.selectedOptionValue !== "" && 
-			 select_registration_type.selectedOptionValues.length > 1 &
+			 select_registration_type.selectedOptionValues.length >= 1 &
 			 input_limit_per_code.text > 0 && input_limit_per_user.text > 0 &&
 			 datepicker_start.selectedDate !== "" && datepicker_end.selectedDate !== "")
 			{
@@ -61,7 +61,7 @@ export default {
 						select_discount_type.selectedOptionValue === 'FIXED_AMOUNT' ? 
 						{
 							"currency": select_currency.selectedOptionValue,
-							"value": Number(input_min_product_value.text)
+							"value": Number(input_discount_amount.text)
 						} : (input_discount_percent.text.includes('%') ? 
      				input_discount_percent.text.replace('%', '') + "%" : 
     			  input_discount_percent.text + "%"
@@ -97,6 +97,7 @@ export default {
 				},
 				"type" : "FULL"
 			}
+			console.log(data);
 			return data;
 		}
 		else //partial edit mode
