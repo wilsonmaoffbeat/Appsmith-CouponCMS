@@ -42,6 +42,8 @@
   "needsErrorInfo": false,
   "optionLabel": "name",
   "optionValue": "code",
+  "originalBottomRow": 40,
+  "originalTopRow": 36,
   "parentColumnSpace": 6.95361328125,
   "parentId": "29mowf5alr",
   "parentRowSpace": 10,
