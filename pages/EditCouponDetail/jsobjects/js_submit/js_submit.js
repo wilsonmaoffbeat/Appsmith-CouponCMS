@@ -12,7 +12,7 @@ export default {
 			{
 				await api_patch_coupon.run({data:this.createBody(radio_full_edit.selectedOptionValue)});
 				showAlert('Coupon edited!', 'success');
-				//navigateTo('CouponList');
+				navigateTo('CouponList');
 			}
 			catch (error)
 			{
@@ -97,7 +97,7 @@ export default {
 				},
 				"type" : "FULL"
 			}
-			console.log(JSON.stringify(data, null, 2));
+			//console.log(JSON.stringify(data, null, 2));
 			return data;
 		}
 		else //partial edit mode
