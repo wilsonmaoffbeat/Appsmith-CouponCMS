@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.testApiRoot}}/orders/coupon-code-sets/{{appsmith.URL.queryParams.id}}/redemption-records",
+      "path": "{{appsmith.store.testAdminApiRoot}}/orders/coupon-code-sets/{{appsmith.URL.queryParams.id}}/redemption-records",
       "pluginSpecifiedTemplates": [
         {
           "value": true

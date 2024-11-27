@@ -26,7 +26,7 @@
       "httpMethod": "PATCH",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "{{appsmith.store.testApiRoot}}/orders/coupon-code-sets/{{appsmith.URL.queryParams.id}}",
+      "path": "{{appsmith.store.testAdminApiRoot}}/orders/coupon-code-sets/{{appsmith.URL.queryParams.id}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
