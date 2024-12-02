@@ -26,6 +26,8 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
   "parentId": "ffixx65hav",
   "placement": "CENTER",
   "recaptchaType": "V3",

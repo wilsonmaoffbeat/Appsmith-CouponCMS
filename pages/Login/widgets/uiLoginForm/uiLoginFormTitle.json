@@ -30,6 +30,8 @@
   "mobileRightColumn": 25.5,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
   "overflow": "NONE",
   "parentId": "ffixx65hav",
   "renderMode": "CANVAS",

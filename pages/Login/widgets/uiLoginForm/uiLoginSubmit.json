@@ -32,6 +32,8 @@
   "mobileTopRow": 33,
   "needsErrorInfo": false,
   "onClick": "{{jsAdminLogin.login(uiLoginEmailInput.text, uiLoginPasswordInput.text);}}",
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
   "parentId": "ffixx65hav",
   "placement": "CENTER",
   "recaptchaType": "V3",
