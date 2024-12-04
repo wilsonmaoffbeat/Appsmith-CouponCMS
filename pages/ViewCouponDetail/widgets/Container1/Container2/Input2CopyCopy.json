@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 45,
+  "bottomRow": 46,
   "boxShadow": "none",
   "defaultText": "{{api_get_coupon.data.description[\"zh-HK\"]}}",
   "dynamicBindingPathList": [

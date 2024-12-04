@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 183,
+  "bottomRow": 184,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -44,7 +44,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 49,
   "text": "Submit",
-  "topRow": 179,
+  "topRow": 180,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "myc7713lmk",

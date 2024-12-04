@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 81,
+  "bottomRow": 82,
   "boxShadow": "none",
   "defaultText": "{{moment(api_get_coupon.data.endDate).format(\"YYYY-MM-DD HH:mm\")}}",
   "dynamicBindingPathList": [
