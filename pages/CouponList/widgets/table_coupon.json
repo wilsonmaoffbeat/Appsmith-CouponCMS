@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 114,
+  "bottomRow": 115,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -45,7 +45,7 @@
     "endDate",
     "redemptionLimit"
   ],
-  "columnUpdatedAt": 1732853721434,
+  "columnUpdatedAt": 1733222223668,
   "columnWidthMap": {
     "customColumn1": 292,
     "customColumn2": 276,
@@ -148,8 +148,8 @@
   "needsErrorInfo": false,
   "onPageChange": "{{api_get_coupons.run()}}",
   "onRowSelected": "{{navigateTo('ViewCouponDetail', {\n \"id\": table_coupon.selectedRow.id\n}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 114,
-  "originalTopRow": 58,
+  "originalBottomRow": 115,
+  "originalTopRow": 59,
   "parentColumnSpace": 12.71875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -604,7 +604,7 @@
   "serverSidePaginationEnabled": true,
   "tableData": "{{api_get_coupons.data.couponCodeSets}}",
   "textSize": "0.875rem",
-  "topRow": 58,
+  "topRow": 59,
   "totalRecordsCount": "{{api_get_coupons.data.paginationInfo.totalItems}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,

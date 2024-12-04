@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 18,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -58,7 +58,7 @@
   "rightColumn": 63,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"ALL\",\n    \"code\": \"\"\n  },\n  {\n    \"name\": \"FIXED_AMOUNT\",\n    \"code\": \"FIXED_AMOUNT\"\n  },\n  {\n    \"name\": \"PERCENTAGE\",\n    \"code\": \"PERCENTAGE\"\n  }\n]",
-  "topRow": 13,
+  "topRow": 14,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "64llqlt10q",

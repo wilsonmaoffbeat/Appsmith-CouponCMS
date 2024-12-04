@@ -16,7 +16,7 @@ export default {
 			}
 			catch (error)
 			{
-				showAlert('Error! '+api_post_coupon_code_sets.data.message,'error');
+				showAlert('Error '+api_post_coupon_code_sets.data.innerError.statusCode+":"+api_post_coupon_code_sets.data.message,'error');
 			}
 		}
 	},
@@ -24,7 +24,7 @@ export default {
 	{
 		//Overall validation
 		if(code_count.text > 0 &&
-			 input_title_en !== "" && input_title_zh !== "" && input_desc_en !== "" && label_desc_zh !== "" &&
+			 input_title_en !== "" && input_title_zh !== "" && input_desc_en !== "" && input_desc_zh !== "" &&
 			 //input_remarks_en !== "" && input_remarks_zh !== "" &&
 			 select_coupon_type.selectedOptionValue !== "" && select_discount_type.selectedOptionValue !== "" && 
 			 select_registration_type.selectedOptionValues.length >= 1 &&
