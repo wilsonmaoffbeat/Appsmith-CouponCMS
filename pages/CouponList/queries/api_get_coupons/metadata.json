@@ -85,9 +85,6 @@
         "key": "path"
       },
       {
-        "key": "headers[0].value"
-      },
-      {
         "key": "queryParameters[0].value"
       },
       {
@@ -143,6 +140,9 @@
       },
       {
         "key": "queryParameters[9].value"
+      },
+      {
+        "key": "headers[0].value"
       }
     ],
     "executeOnLoad": true,
