@@ -23,7 +23,7 @@
     },
     {
       "id": "Login Test",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "ViewCouponDetail",
@@ -39,7 +39,7 @@
     },
     {
       "id": "Login",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "unpublishedApplicationDetail": {
