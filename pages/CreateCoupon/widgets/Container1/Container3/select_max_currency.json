@@ -52,7 +52,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 10,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"HKD\",\n    \"code\": \"HKD\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"name\": \"HKD\",\n    \"code\": \"HKD\"\n  },\n\t{\n    \"name\": \"SGD\",\n    \"code\": \"SGD\"\n  }\n]",
   "topRow": 36,
   "type": "SELECT_WIDGET",
   "version": 1,

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 17,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -56,7 +56,7 @@
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tooltip": "Enter self-defined codes (max 8 digits) or enter \"Sys-generate\".",
-  "topRow": 5,
+  "topRow": 7,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "s5ckgzusjm",
